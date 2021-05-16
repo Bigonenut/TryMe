@@ -1,6 +1,6 @@
 <?php
 /**
- * 简洁的一款主题
+ * 一款简洁的主题
  * @package Tryme
  * @author 坚果
  * @version 1.0.0
