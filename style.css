@@ -2612,3 +2612,10 @@ img {
         color: #00b894;
     }
 }
+
+.back{
+    padding: 13px 35px;
+    border: 1px solid #D6D6D6;
+    border-radius: 50px;
+    color: #ADADAD;
+}

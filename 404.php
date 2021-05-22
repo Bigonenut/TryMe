@@ -1,5 +1,4 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit;?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -16,8 +15,10 @@
     <span class="middle"></span>
     <span>4</span>
     </div>
-    <div class="back">
-		<a href="javascript:history.go(-1)" class="">上一页</a>
-        <a id="gohome" href="<?php $this->options ->siteUrl(); ?>">返回主页</a>
-	</div>
+
+    <div>
+		  <a class="back" href="javascript:history.go(-1)" class="">上一页</a>
+      <a class="back" id="gohome" href="<?php $this->options ->siteUrl(); ?>">返回主页</a>
+	  </div>
 </body>
+
