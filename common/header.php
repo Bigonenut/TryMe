@@ -14,6 +14,7 @@
         <link rel=stylesheet href="https://at.alicdn.com/t/font_2544780_n667vku64d.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zetheme/pigeon/css/animate.min.css">
         <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox/dist/jquery.fancybox.min.css" />
+        <link href="//at.alicdn.com/t/font_2564159_iblw9ijwej.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zetheme/pigeon/OWO/OwO.js"></script>
         <?php $this->header('commentReply=&'); ?>
@@ -29,6 +30,7 @@
 
                     <!--菜单工具-->
                     <div class="meun_tool">
+                        <div class="search_bnt"><a href="<?php $this->options->adminUrl(); ?>" target="_top"><i class="iconfont icon-yonghu"></i></a></div>
                         <div class="search_btn" onclick="mobile_show()"><i class="iconfont icon-caidan1"></i></div>
                         <div class="search_bnt" onclick="search_show()" ><i class="iconfont icon-sousuo1"></i></div>
                     </div>
@@ -52,7 +54,9 @@
                                 <?php $this->widget('Widget_Contents_Page_List')
                                    ->parse('<li class="meun_li"><a href="{permalink}">{title}</a></li>'); ?>
                             </ul>
+
                         </nav>
+
                     </div>
 
                 </div>
